@@ -1,0 +1,41 @@
+{
+  "name": "gruntfile",
+  "description": "Gruntfile helper for making modular gruntfiles.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shama/gruntfile",
+  "author": {
+    "name": "Kyle Robinson Young",
+    "email": "kyle@dontkry.com",
+    "url": "http://dontkry.com"
+  },
+  "keywords": [
+    "gruntfile",
+    "gruntplugin",
+    "modular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shama/gruntfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/gruntfile/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shama/gruntfile/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "tape": "~1.0.4"
+  }
+}
